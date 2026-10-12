@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0174643844B602229928EBCC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A43FA85C552FB2BD5C2F9 /* Theme.swift */; };
+		0F4B7ED2EE1DC88EF0BFFF44 /* WorldAtlasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4174AA43D898D6A479D0A6 /* WorldAtlasView.swift */; };
+		11EA875A03F266E0AFEDF9B9 /* JourneyRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AD3481FF4CDAC5938AFD9 /* JourneyRootView.swift */; };
+		12115BA5005AC58AA248C192 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E904DC9CB7A67B38D9A3ED9F /* OFL.txt */; };
+		2F596485DC4827401106C7B7 /* AddJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D711A8037C0467AA1EABA93 /* AddJourneyView.swift */; };
+		32B0F5024D0FDE59A7DB3524 /* JourneyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A84EB672068A5A43F0FD64 /* JourneyStore.swift */; };
+		4553C2DCC47E3E449313BBB1 /* WorldLand-source.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8BB63402E7586810A0130C74 /* WorldLand-source.txt */; };
+		4AFB023A47B2BC745FEBA29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2920E43EB2BD81C73AC20FA1 /* Assets.xcassets */; };
+		69A67BB68130814653F1C0BC /* TripRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311DDBE3AD2A2998453E358D /* TripRepository.swift */; };
+		6CA14181C990C3DA45ABA930 /* JourneyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB2B45485AFDDE9A6686E /* JourneyMapView.swift */; };
+		6EA9F58DA0482E2BE8B8EADE /* WanderlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8385CE4F49B4844003BF1 /* WanderlogUITests.swift */; };
+		72612E9238D2E7B617C30FEC /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316534C01D90C6CBDD88BF6 /* PhotoView.swift */; };
+		7366879C1724447EA70AFF4F /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C98E819E718E40A938653 /* Trip.swift */; };
+		7F54BB406885D0360C429670 /* SampleTrips.json in Resources */ = {isa = PBXBuildFile; fileRef = 15EABF3FFD4C8AB48AB90CCA /* SampleTrips.json */; };
+		7FC6D68DBD833BECDD4694EA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D95A00BE31D84D3A9A7B63 /* Place.swift */; };
+		807818DFDB92F2944AD5C982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121CD053DD2B8A7A7D99C568 /* Foundation.framework */; };
+		90ECAEBCB113FD73628DB7D8 /* AtlasProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC97D557C5246B85CB11D0 /* AtlasProjection.swift */; };
+		984B6FDA16ED042FA06EBD5F /* ManualPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F333D8345A692FBBF3D1E /* ManualPlaceView.swift */; };
+		A12097EB81CDD6EDFA7F4ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E5B9C307C42C664C060B95 /* LaunchScreen.storyboard */; };
+		B73D0C1189DC5C623542D0E7 /* JourneyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5555E52E265E3FED036D3C /* JourneyDetailView.swift */; };
+		B894307CFE244D149F56847E /* WorldLand.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A9D2DFCAD410E574D7AC28 /* WorldLand.json */; };
+		BA3CEFDAC42ED223B8518220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121CD053DD2B8A7A7D99C568 /* Foundation.framework */; };
+		BDF4BBC577B9A096CE37387D /* NotoSerifCJKsc-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8297D694F12F50566BB9529 /* NotoSerifCJKsc-Regular.otf */; };
+		C6C1E424A02DC432CDA16E2A /* JourneyRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C8006E96215BAAE3246D0 /* JourneyRules.swift */; };
+		CD0DD65A9AB1A47F56971C23 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 90B426CB82EEF2421D32C278 /* PrivacyInfo.xcprivacy */; };
+		E5AF0AE023829F823DD2C3B0 /* JourneyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC360B665BE1D20BA6155B68 /* JourneyListView.swift */; };
+		F00777A7EB131A46461F8FF3 /* PlaceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EFF7FE1732281A0BBCAB26 /* PlaceSearch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65D27E94C08CEADC9E782E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D5234D6A57F0972986DF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CBA426E4F916FFB49976A4;
+			remoteInfo = Wanderlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121CD053DD2B8A7A7D99C568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		15EABF3FFD4C8AB48AB90CCA /* SampleTrips.json */ = {isa = PBXFileReference; includeInIndex = 1; path = SampleTrips.json; sourceTree = "<group>"; };
+		1B87FB9A70F36BA7301F554E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2316534C01D90C6CBDD88BF6 /* PhotoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		2920E43EB2BD81C73AC20FA1 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D711A8037C0467AA1EABA93 /* AddJourneyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddJourneyView.swift; sourceTree = "<group>"; };
+		311DDBE3AD2A2998453E358D /* TripRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TripRepository.swift; sourceTree = "<group>"; };
+		342C98E819E718E40A938653 /* Trip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		373A43FA85C552FB2BD5C2F9 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		61E5B9C307C42C664C060B95 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62A9D2DFCAD410E574D7AC28 /* WorldLand.json */ = {isa = PBXFileReference; includeInIndex = 1; path = WorldLand.json; sourceTree = "<group>"; };
+		6DC8385CE4F49B4844003BF1 /* WanderlogUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WanderlogUITests.swift; sourceTree = "<group>"; };
+		72EFF7FE1732281A0BBCAB26 /* PlaceSearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaceSearch.swift; sourceTree = "<group>"; };
+		8BB63402E7586810A0130C74 /* WorldLand-source.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = "WorldLand-source.txt"; sourceTree = "<group>"; };
+		8D2C8006E96215BAAE3246D0 /* JourneyRules.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JourneyRules.swift; sourceTree = "<group>"; };
+		8DA3A0615327BC8C960D01E5 /* Wanderlog.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Wanderlog.entitlements; sourceTree = "<group>"; };
+		90A84EB672068A5A43F0FD64 /* JourneyStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JourneyStore.swift; sourceTree = "<group>"; };
+		90B426CB82EEF2421D32C278 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		9B3A5BA17F25A7970109289F /* Wanderlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wanderlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04AD3481FF4CDAC5938AFD9 /* JourneyRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JourneyRootView.swift; sourceTree = "<group>"; };
+		A07F333D8345A692FBBF3D1E /* ManualPlaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManualPlaceView.swift; sourceTree = "<group>"; };
+		A9EC97D557C5246B85CB11D0 /* AtlasProjection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AtlasProjection.swift; sourceTree = "<group>"; };
+		BA4174AA43D898D6A479D0A6 /* WorldAtlasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WorldAtlasView.swift; sourceTree = "<group>"; };
+		C2C70BF8F76DD3289F3F1C6E /* WanderlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1BB2B45485AFDDE9A6686E /* JourneyMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JourneyMapView.swift; sourceTree = "<group>"; };
+		DD5555E52E265E3FED036D3C /* JourneyDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JourneyDetailView.swift; sourceTree = "<group>"; };
+		E8D95A00BE31D84D3A9A7B63 /* Place.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		E904DC9CB7A67B38D9A3ED9F /* OFL.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = OFL.txt; sourceTree = "<group>"; };
+		EC360B665BE1D20BA6155B68 /* JourneyListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JourneyListView.swift; sourceTree = "<group>"; };
+		F8297D694F12F50566BB9529 /* NotoSerifCJKsc-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; path = "NotoSerifCJKsc-Regular.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350EC14109C590F5DEBFC3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3CEFDAC42ED223B8518220 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FB629CD91C857A8782802C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807818DFDB92F2944AD5C982 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E85216B122B1FAD3AF3DE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15EABF3FFD4C8AB48AB90CCA /* SampleTrips.json */,
+				2920E43EB2BD81C73AC20FA1 /* Assets.xcassets */,
+				61E5B9C307C42C664C060B95 /* LaunchScreen.storyboard */,
+				90B426CB82EEF2421D32C278 /* PrivacyInfo.xcprivacy */,
+				76D7B1C7FC1EFA91AA73582A /* Fonts */,
+				62A9D2DFCAD410E574D7AC28 /* WorldLand.json */,
+				8BB63402E7586810A0130C74 /* WorldLand-source.txt */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11C6AF572B0345EC45B51203 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2D711A8037C0467AA1EABA93 /* AddJourneyView.swift */,
+				DD5555E52E265E3FED036D3C /* JourneyDetailView.swift */,
+				EC360B665BE1D20BA6155B68 /* JourneyListView.swift */,
+				CD1BB2B45485AFDDE9A6686E /* JourneyMapView.swift */,
+				A04AD3481FF4CDAC5938AFD9 /* JourneyRootView.swift */,
+				90A84EB672068A5A43F0FD64 /* JourneyStore.swift */,
+				A07F333D8345A692FBBF3D1E /* ManualPlaceView.swift */,
+				2316534C01D90C6CBDD88BF6 /* PhotoView.swift */,
+				72EFF7FE1732281A0BBCAB26 /* PlaceSearch.swift */,
+				373A43FA85C552FB2BD5C2F9 /* Theme.swift */,
+				BA4174AA43D898D6A479D0A6 /* WorldAtlasView.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		76D7B1C7FC1EFA91AA73582A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F8297D694F12F50566BB9529 /* NotoSerifCJKsc-Regular.otf */,
+				E904DC9CB7A67B38D9A3ED9F /* OFL.txt */,
+			);
+			name = Fonts;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		79D959DD84343A3558A70C05 = {
+			isa = PBXGroup;
+			children = (
+				F8A1A3E62A71373E506524D0 /* Products */,
+				A678FD72391E689396A097B4 /* Frameworks */,
+				974B5C7DA03E1C7CD8EF5BEB /* Core */,
+				11C6AF572B0345EC45B51203 /* App */,
+				07E85216B122B1FAD3AF3DE5 /* Resources */,
+				1B87FB9A70F36BA7301F554E /* Info.plist */,
+				8DA3A0615327BC8C960D01E5 /* Wanderlog.entitlements */,
+				A78126A6E7ED147F4352C405 /* UITests */,
+			);
+			sourceTree = "<group>";
+		};
+		974B5C7DA03E1C7CD8EF5BEB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C8006E96215BAAE3246D0 /* JourneyRules.swift */,
+				E8D95A00BE31D84D3A9A7B63 /* Place.swift */,
+				342C98E819E718E40A938653 /* Trip.swift */,
+				311DDBE3AD2A2998453E358D /* TripRepository.swift */,
+				A9EC97D557C5246B85CB11D0 /* AtlasProjection.swift */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A678FD72391E689396A097B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16F9202F9CDA329667EFEE2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78126A6E7ED147F4352C405 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC8385CE4F49B4844003BF1 /* WanderlogUITests.swift */,
+			);
+			name = UITests;
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		E16F9202F9CDA329667EFEE2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				121CD053DD2B8A7A7D99C568 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F8A1A3E62A71373E506524D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3A5BA17F25A7970109289F /* Wanderlog.app */,
+				C2C70BF8F76DD3289F3F1C6E /* WanderlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419855ECE2FA2A1A107D14B3 /* WanderlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC931FE70E902E565E0BD90 /* Build configuration list for PBXNativeTarget "WanderlogUITests" */;
+			buildPhases = (
+				9EB5B956A82D8FA9CE18D090 /* Sources */,
+				350EC14109C590F5DEBFC3E2 /* Frameworks */,
+				9F9ABADE56CF569EDB7F5979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C4A84090E6EB633D2F926A9 /* PBXTargetDependency */,
+			);
+			name = WanderlogUITests;
+			productName = WanderlogUITests;
+			productReference = C2C70BF8F76DD3289F3F1C6E /* WanderlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B8CBA426E4F916FFB49976A4 /* Wanderlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5895C048CE936B2705E066A /* Build configuration list for PBXNativeTarget "Wanderlog" */;
+			buildPhases = (
+				A770B70C4E5F3158E61EEE31 /* Sources */,
+				96FB629CD91C857A8782802C /* Frameworks */,
+				21CD70DFE201AF0D5B9F3121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wanderlog;
+			productName = Wanderlog;
+			productReference = 9B3A5BA17F25A7970109289F /* Wanderlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D5234D6A57F0972986DF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = DE5BB690D1B1506CDB3FC3A1 /* Build configuration list for PBXProject "Wanderlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79D959DD84343A3558A70C05;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F8A1A3E62A71373E506524D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8CBA426E4F916FFB49976A4 /* Wanderlog */,
+				419855ECE2FA2A1A107D14B3 /* WanderlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CD70DFE201AF0D5B9F3121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F54BB406885D0360C429670 /* SampleTrips.json in Resources */,
+				4AFB023A47B2BC745FEBA29B /* Assets.xcassets in Resources */,
+				A12097EB81CDD6EDFA7F4ECD /* LaunchScreen.storyboard in Resources */,
+				CD0DD65A9AB1A47F56971C23 /* PrivacyInfo.xcprivacy in Resources */,
+				BDF4BBC577B9A096CE37387D /* NotoSerifCJKsc-Regular.otf in Resources */,
+				12115BA5005AC58AA248C192 /* OFL.txt in Resources */,
+				B894307CFE244D149F56847E /* WorldLand.json in Resources */,
+				4553C2DCC47E3E449313BBB1 /* WorldLand-source.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9ABADE56CF569EDB7F5979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB5B956A82D8FA9CE18D090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA9F58DA0482E2BE8B8EADE /* WanderlogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A770B70C4E5F3158E61EEE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C1E424A02DC432CDA16E2A /* JourneyRules.swift in Sources */,
+				7FC6D68DBD833BECDD4694EA /* Place.swift in Sources */,
+				7366879C1724447EA70AFF4F /* Trip.swift in Sources */,
+				69A67BB68130814653F1C0BC /* TripRepository.swift in Sources */,
+				2F596485DC4827401106C7B7 /* AddJourneyView.swift in Sources */,
+				B73D0C1189DC5C623542D0E7 /* JourneyDetailView.swift in Sources */,
+				E5AF0AE023829F823DD2C3B0 /* JourneyListView.swift in Sources */,
+				6CA14181C990C3DA45ABA930 /* JourneyMapView.swift in Sources */,
+				11EA875A03F266E0AFEDF9B9 /* JourneyRootView.swift in Sources */,
+				32B0F5024D0FDE59A7DB3524 /* JourneyStore.swift in Sources */,
+				984B6FDA16ED042FA06EBD5F /* ManualPlaceView.swift in Sources */,
+				72612E9238D2E7B617C30FEC /* PhotoView.swift in Sources */,
+				F00777A7EB131A46461F8FF3 /* PlaceSearch.swift in Sources */,
+				0174643844B602229928EBCC /* Theme.swift in Sources */,
+				90ECAEBCB113FD73628DB7D8 /* AtlasProjection.swift in Sources */,
+				0F4B7ED2EE1DC88EF0BFFF44 /* WorldAtlasView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C4A84090E6EB633D2F926A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Wanderlog;
+			target = B8CBA426E4F916FFB49976A4 /* Wanderlog */;
+			targetProxy = 65D27E94C08CEADC9E782E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123677C52FC55F35840BF664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UD4B2Y45PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanderlog.travel.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wanderlog;
+			};
+			name = Debug;
+		};
+		1AFD0FECCF31E1D5E959917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1C7BAF372D399F654FAB164E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		374F4F1F7F52B3D9D5A12EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Wanderlog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = UD4B2Y45PP;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanderlog.travel;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8EDBAE01DFA7CFB05BDB3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UD4B2Y45PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanderlog.travel.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wanderlog;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC0ADF727ADDE80503F5322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Wanderlog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = UD4B2Y45PP;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanderlog.travel;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BC931FE70E902E565E0BD90 /* Build configuration list for PBXNativeTarget "WanderlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EDBAE01DFA7CFB05BDB3B9 /* Release */,
+				123677C52FC55F35840BF664 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5BB690D1B1506CDB3FC3A1 /* Build configuration list for PBXProject "Wanderlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7BAF372D399F654FAB164E /* Debug */,
+				1AFD0FECCF31E1D5E959917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5895C048CE936B2705E066A /* Build configuration list for PBXNativeTarget "Wanderlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374F4F1F7F52B3D9D5A12EFB /* Release */,
+				CFC0ADF727ADDE80503F5322 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D5234D6A57F0972986DF03 /* Project object */;
+}

@@ -1,0 +1,22 @@
+# Generated build products and local IDE state
+.build/
+.swiftpm/
+build-*/
+DerivedData/
+*.xcresult/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+
+# Local assistant notes
+.workbuddy/
+.codex/
+.agents/
+
+# Credentials and private local exports
+.env*
+*.p12
+*.p8
+*.mobileprovision
+backups/
+proofs/
